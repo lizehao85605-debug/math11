@@ -1,0 +1,44 @@
+Validating Question 1...
+{"days": 30, "feasible_days": 30, "feasibility_rate": 1.0, "max_constraint_residual": 0.0, "max_inventory_balance_residual": 0.0, "max_capacity_violation": 0.0, "max_integer_error": 0.0, "independent_resolve_matches": 30, "independent_resolve_rate": 1.0, "theoretical_lower_bound_matches": 30, "theoretical_lower_bound_rate": 1.0, "saved_total_worker_days": 10791, "resolved_total_worker_days": 10791, "passed": true}
+Validating Question 2...
+{"days": 30, "feasible_days": 30, "feasibility_rate": 1.0, "max_constraint_residual": 0.0, "max_inventory_balance_residual": 0.0, "max_capacity_violation": 0.0, "max_deadline_inventory": 0.0, "max_integer_error": 0.0, "independent_resolve_matches": 30, "independent_resolve_rate": 1.0, "volume_lower_bound_matches": 16, "volume_lower_bound_rate": 0.5333333333333333, "saved_total_worker_days": 11858, "resolved_total_worker_days": 11858, "passed": true}
+Running deep audit for Question 3...
+PASS: all 30 days contain five distinct 8-hour shifts.
+PASS: every shift worker has exactly one aggregated 10-item hour.
+PASS: all 720 hourly capacity and inventory balances are valid.
+PASS: all early freight is complete before 16:00 and all daily freight is complete by 24:00.
+PASS: all 581 workers work exactly 23 days and at most 7 consecutive days.
+PASS: 13363 named assignments match all shift totals.
+PASS: optimality certified by day 12: at least 581 workers are necessary and 581 are sufficient.
+PASS: maximum daily surplus 53 attains its worker-day counting lower bound 53.
+PASS: all reported hourly item quantities are integral.
+PASS: all 30 daily minimum worker counts were independently re-solved.
+PASS: all 30 daily staffing peaks attain their independent lower bounds; global peak=295, sum of daily peaks=6498.
+INFO: total unused processing capacity across the month = 316551.00 items.
+{"deep_audit_passed": true, "hired_workers": 581, "worker_count_in_calendar": 581, "invalid_workers": 0, "maximum_consecutive_days": 7, "total_worker_days": 13363, "required_total_worker_days": 13363, "lower_bounds": {"max_daily": 581, "total_workdays": 516, "eight_day_window": 531, "overall": 581}, "optimality_gap_workers": 0, "daily_minimum_resolve_rate": 1.0, "daily_peak_lower_bound_rate": 1.0, "passed": true}
+Running 20 random robustness scenarios...
+robustness 01/20: input=+0.237%, q1=+0.250%, q2=+0.211%, q3=-0.516%
+robustness 02/20: input=+0.217%, q1=+0.232%, q2=+0.928%, q3=+0.000%
+robustness 03/20: input=-0.165%, q1=-0.158%, q2=+0.051%, q3=-1.549%
+robustness 04/20: input=-0.130%, q1=-0.102%, q2=+0.472%, q3=+1.721%
+robustness 05/20: input=-0.316%, q1=-0.324%, q2=-0.548%, q3=-0.172%
+robustness 06/20: input=+0.163%, q1=+0.148%, q2=+0.590%, q3=+0.516%
+robustness 07/20: input=+0.045%, q1=+0.065%, q2=+0.793%, q3=-1.721%
+robustness 08/20: input=+0.222%, q1=+0.241%, q2=+1.240%, q3=+0.516%
+robustness 09/20: input=-0.153%, q1=-0.148%, q2=+0.388%, q3=-0.688%
+robustness 10/20: input=-0.492%, q1=-0.473%, q2=+0.084%, q3=+0.344%
+robustness 11/20: input=-0.386%, q1=-0.361%, q2=+0.177%, q3=-1.033%
+robustness 12/20: input=-0.234%, q1=-0.204%, q2=+0.059%, q3=+1.033%
+robustness 13/20: input=-0.170%, q1=-0.185%, q2=+0.464%, q3=-0.516%
+robustness 14/20: input=-0.110%, q1=-0.102%, q2=-0.523%, q3=+0.688%
+robustness 15/20: input=-0.038%, q1=+0.000%, q2=+0.118%, q3=-0.172%
+robustness 16/20: input=-0.039%, q1=-0.037%, q2=+0.869%, q3=-0.688%
+robustness 17/20: input=+0.210%, q1=+0.241%, q2=+0.624%, q3=-0.861%
+robustness 18/20: input=-0.076%, q1=-0.046%, q2=+0.312%, q3=+1.549%
+robustness 19/20: input=-0.249%, q1=-0.213%, q2=-0.067%, q3=-0.344%
+robustness 20/20: input=-0.389%, q1=-0.361%, q2=-0.304%, q3=+0.861%
+stress_minus_10: q1=-9.981%, q2=-9.968%, q3=-9.983%
+stress_plus_10: q1=+10.036%, q2=+9.993%, q3=+9.983%
+All checks passed. Results saved to D:\��һ��ģ��\���н��_20260819\ģ�ͼ���
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();

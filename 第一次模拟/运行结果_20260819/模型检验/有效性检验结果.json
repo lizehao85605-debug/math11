@@ -1,0 +1,56 @@
+{
+  "tolerance": 1e-05,
+  "question1": {
+    "days": 30,
+    "feasible_days": 30,
+    "feasibility_rate": 1.0,
+    "max_constraint_residual": 0.0,
+    "max_inventory_balance_residual": 0.0,
+    "max_capacity_violation": 0.0,
+    "max_integer_error": 0.0,
+    "independent_resolve_matches": 30,
+    "independent_resolve_rate": 1.0,
+    "theoretical_lower_bound_matches": 30,
+    "theoretical_lower_bound_rate": 1.0,
+    "saved_total_worker_days": 10791,
+    "resolved_total_worker_days": 10791,
+    "passed": true
+  },
+  "question2": {
+    "days": 30,
+    "feasible_days": 30,
+    "feasibility_rate": 1.0,
+    "max_constraint_residual": 0.0,
+    "max_inventory_balance_residual": 0.0,
+    "max_capacity_violation": 0.0,
+    "max_deadline_inventory": 0.0,
+    "max_integer_error": 0.0,
+    "independent_resolve_matches": 30,
+    "independent_resolve_rate": 1.0,
+    "volume_lower_bound_matches": 16,
+    "volume_lower_bound_rate": 0.5333333333333333,
+    "saved_total_worker_days": 11858,
+    "resolved_total_worker_days": 11858,
+    "passed": true
+  },
+  "question3": {
+    "deep_audit_passed": true,
+    "hired_workers": 581,
+    "worker_count_in_calendar": 581,
+    "invalid_workers": 0,
+    "maximum_consecutive_days": 7,
+    "total_worker_days": 13363,
+    "required_total_worker_days": 13363,
+    "lower_bounds": {
+      "max_daily": 581,
+      "total_workdays": 516,
+      "eight_day_window": 531,
+      "overall": 581
+    },
+    "optimality_gap_workers": 0,
+    "daily_minimum_resolve_rate": 1.0,
+    "daily_peak_lower_bound_rate": 1.0,
+    "passed": true
+  },
+  "all_passed": true
+}

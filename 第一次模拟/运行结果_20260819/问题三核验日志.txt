@@ -1,0 +1,10 @@
+PASS: all 30 days contain five distinct 8-hour shifts.
+PASS: every shift worker has exactly one aggregated 10-item hour.
+PASS: all 720 hourly capacity and inventory balances are valid.
+PASS: all early freight is complete before 16:00 and all daily freight is complete by 24:00.
+PASS: all 581 workers work exactly 23 days and at most 7 consecutive days.
+PASS: 13363 named assignments match all shift totals.
+PASS: optimality certified by day 12: at least 581 workers are necessary and 581 are sufficient.
+PASS: maximum daily surplus 53 attains its worker-day counting lower bound 53.
+PASS: all reported hourly item quantities are integral.
+INFO: total unused processing capacity across the month = 316551.00 items.

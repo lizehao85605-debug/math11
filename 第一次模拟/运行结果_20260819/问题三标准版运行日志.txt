@@ -1,0 +1,65 @@
+minimum day=01 workers=485
+minimum day=02 workers=481
+minimum day=03 workers=399
+minimum day=04 workers=389
+minimum day=05 workers=361
+minimum day=06 workers=355
+minimum day=07 workers=356
+minimum day=08 workers=378
+minimum day=09 workers=395
+minimum day=10 workers=385
+minimum day=11 workers=541
+minimum day=12 workers=581
+minimum day=13 workers=545
+minimum day=14 workers=433
+minimum day=15 workers=430
+minimum day=16 workers=401
+minimum day=17 workers=382
+minimum day=18 workers=369
+minimum day=19 workers=376
+minimum day=20 workers=355
+minimum day=21 workers=383
+minimum day=22 workers=363
+minimum day=23 workers=353
+minimum day=24 workers=351
+minimum day=25 workers=336
+minimum day=26 workers=320
+minimum day=27 workers=361
+minimum day=28 workers=329
+minimum day=29 workers=332
+minimum day=30 workers=333
+Lower bounds: {'max_daily': 581, 'total_workdays': 516, 'eight_day_window': 531, 'overall': 581}
+Optimal hired workers=581, maximum daily surplus=53, total worker-days=13363
+question3 day=01 workers=538 starts=[0, 2, 3, 8, 16]
+question3 day=02 workers=534 starts=[0, 1, 7, 8, 16]
+question3 day=03 workers=452 starts=[0, 1, 8, 13, 16]
+question3 day=04 workers=442 starts=[0, 1, 2, 8, 16]
+question3 day=05 workers=414 starts=[0, 1, 2, 8, 16]
+question3 day=06 workers=408 starts=[0, 1, 2, 8, 16]
+question3 day=07 workers=409 starts=[0, 1, 2, 8, 16]
+question3 day=08 workers=431 starts=[0, 1, 2, 8, 16]
+question3 day=09 workers=448 starts=[0, 1, 2, 8, 16]
+question3 day=10 workers=438 starts=[0, 2, 8, 15, 16]
+question3 day=11 workers=581 starts=[0, 1, 2, 8, 16]
+question3 day=12 workers=581 starts=[0, 1, 2, 8, 16]
+question3 day=13 workers=579 starts=[0, 1, 2, 8, 16]
+question3 day=14 workers=486 starts=[0, 1, 2, 8, 16]
+question3 day=15 workers=483 starts=[0, 1, 8, 15, 16]
+question3 day=16 workers=454 starts=[0, 1, 2, 8, 16]
+question3 day=17 workers=435 starts=[0, 1, 8, 15, 16]
+question3 day=18 workers=422 starts=[0, 2, 8, 14, 16]
+question3 day=19 workers=429 starts=[0, 1, 2, 8, 16]
+question3 day=20 workers=408 starts=[0, 2, 8, 15, 16]
+question3 day=21 workers=436 starts=[0, 1, 8, 15, 16]
+question3 day=22 workers=416 starts=[0, 2, 8, 15, 16]
+question3 day=23 workers=406 starts=[0, 1, 2, 8, 16]
+question3 day=24 workers=404 starts=[0, 1, 8, 15, 16]
+question3 day=25 workers=389 starts=[0, 1, 8, 15, 16]
+question3 day=26 workers=373 starts=[0, 1, 8, 15, 16]
+question3 day=27 workers=414 starts=[0, 1, 2, 8, 16]
+question3 day=28 workers=382 starts=[0, 8, 14, 15, 16]
+question3 day=29 workers=385 starts=[0, 8, 14, 15, 16]
+question3 day=30 workers=386 starts=[0, 1, 2, 8, 16]
+Saved result to: D:\��һ��ģ��\���н��_20260819\�����������Ż����.xlsx
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();

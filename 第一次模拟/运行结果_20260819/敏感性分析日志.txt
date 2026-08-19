@@ -1,0 +1,27 @@
+{
+  "0.9": {
+    "normal_rate": 22.5,
+    "low_rate_fixed": 10.0,
+    "q1_mean_workers": 399.6667,
+    "q1_total_worker_days": 11990,
+    "q1_max_workers": 597,
+    "q2_mean_workers": 437.1333,
+    "q2_total_worker_days": 13114,
+    "q2_max_workers": 642,
+    "q3_hired_workers": 642,
+    "q3_max_surplus": 59
+  },
+  "1.1": {
+    "normal_rate": 27.500000000000004,
+    "low_rate_fixed": 10.0,
+    "q1_mean_workers": 327.1,
+    "q1_total_worker_days": 9813,
+    "q1_max_workers": 489,
+    "q2_mean_workers": 360.6667,
+    "q2_total_worker_days": 10820,
+    "q2_max_workers": 531,
+    "q3_hired_workers": 531,
+    "q3_max_surplus": 49
+  }
+}
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
